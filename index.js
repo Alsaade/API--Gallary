@@ -46,7 +46,7 @@ let gallery =[
   {url :  'https://image.shutterstock.com/image-photo/beautiful-pink-flowers-anemones-ladybug-260nw-1020162208.jpg'},
   {url :  'https://image.shutterstock.com/image-photo/into-forest-nature-composition-260nw-292597868.jpg'},
   {url :  'https://image.shutterstock.com/image-photo/butterfly-grass-on-meadow-night-260nw-1111729556.jpg'},
-  {url :  'https://image.shutterstock.com/image-photo/closeup-nature-view-green-leaf-260nw-1037763571.jpg'}
+  {url :  'https://image.shutterstock.com/image-photo/closeup-nature-view-green-leaf-260nw-1037763571.jpg'},
 ];
 let pageSize = 20;
 app.get('/photos/:page/', (req, res) => {
