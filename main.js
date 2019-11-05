@@ -18,7 +18,7 @@ function data() {
 }
 function addData() {
     const doc = photoArray.map((element, index) => {
-        return `<img src= ${element.url} data-id= ${index} onclick="overlayPhoto(event)">`;
+        return `<img src= ${element} data-id= ${index} onclick="overlayPhoto(event)">`;
     });
     document.getElementById('subCont').innerHTML = doc.join('');
     document.getElementById('btn').scrollIntoView({
